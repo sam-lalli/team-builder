@@ -56,6 +56,7 @@ function App() {
       role: rosterValues.role,
     }
     setTeamMembers([...teamMembers, newPlayer])
+    setRosterValues(initialRoster)
   }
 
 
